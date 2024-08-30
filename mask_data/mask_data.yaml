@@ -1,0 +1,10 @@
+path: /kaggle/working/face-mask-detection/
+train: train/images
+val: val/images
+
+nc: 3
+names: ["without_mask", "mask_weared_incorrect", "with_mask"]
+colors:
+  - [255, 0, 0]
+  - [255, 0, 0]
+  - [0, 255, 0]
