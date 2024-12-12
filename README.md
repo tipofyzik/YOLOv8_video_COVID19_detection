@@ -1,5 +1,3 @@
-# Detecting persons with and without mask on video via YOLOv8 ML model
-
 For viewing big-size notebooks: https://nbviewer.org/
 
 ## Datasets
@@ -30,7 +28,8 @@ Tasks:
 
 ### 2.2. Model choice, data preparation, and training
 &emsp;&emsp;The You Only Look Once (YOLO) algorithm was originally designed for object detection and remains one of the leaders in this task. Due to its efficiency, high speed, accuracy, and ease of use, this is often considered as the best choice for real-time object detection tasks. Recently, the 9th version of this algorithm has been released (Wang, Yeh, & Liao, 2024). YOLOv9 loses less information during the training thanks to the new architecture solution (YOLOv9: SOTA Object Detection Model Explained, 2024), which leads to better performance compared with other models (see fig. 1). This allows it to outperform the model's predecessor, YOLOv8, in the context of accuracy and efficiency. For now, this is the best choice for various object detection tasks. For this work, I trained and applied both these YOLO versions to my test videos to look at the practical difference between them. It's important to note that there are several model sizes, each of which is suitable for specific needs. Here, I chose a medium-size model as it’s well-balanced in accuracy and performance and has acceptable process speed.  
-![image](https://github.com/user-attachments/assets/c6ca21ca-877d-47a0-87cf-3929287b3b9b)  
+![image](https://github.com/user-attachments/assets/a6068c63-be84-47a1-b9f9-a4a384be7ee3)  
+
 &emsp;&emsp;For human detection, I applied pretrained YOLO models without additional training on custom datasets, whereas for face masks detection the custom dataset is required. For this reason, I used a publicly available dataset on kaggle to train the YOLO model. The original dataset had annotation in XML-format, so it has been converted into the appropriate format to allow the algorithm process data.
 To train the model, the Kaggle platform is used for providing 30 hours of free GPU use, which is pretty enough for a small, individual project like this.  
 
