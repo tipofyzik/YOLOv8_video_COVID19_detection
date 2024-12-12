@@ -39,7 +39,12 @@ To train the model, the Kaggle platform is used for providing 30 hours of free G
 
 #### 2.3.1. Detection results
 &emsp;&emsp;The model demonstrated good results for individuals that are mostly in the foreground of the video. The further people from the camera, the harder it is to detect them. The very distant objects aren't detected at all. This factor also affected the mask detection because masks can only be found only on recognized persons. Furthermore, there are some errors that occur during the video processing. For example, the model can detect the persons’ reflections in mirrors and windows like real persons (see fig.2). Or it can identify the person properly but can’t recognize the mask on them if this person stands sideways to the camera (see fig.3). Such errors may occur because of the medium-size model, meaning it has average accuracy and learning capacity.  
-![image](https://github.com/user-attachments/assets/4b283a35-5691-4df9-8460-9e3e222a33df)  
+<table>
+  <tr>
+    <td><img src="https://github.com/user-attachments/assets/4b283a35-5691-4df9-8460-9e3e222a33df" style="max-width:100%; height:auto;" /></td>
+    <td><img src="https://github.com/user-attachments/assets/81f1f801-ab60-4502-89db-0805685fcaf5" style="max-width:100%; height:auto;" /></td>
+  </tr>
+</table> 
 
 &emsp;&emsp;The outputs of the developed detection system can be found at the link above. There are 5 different videos each name of which starts with “output_crowd_video”. If the system marks a person's face with a red bounding box we say that this person doesn’t follow the health protocol. Otherwise, the individual’s face will be marked with a green bounding box, meaning everything is fine.  
 In the “output_crowd_video5” video file you can see that the system works almost flawlessly. There are only a few persons in each frame with clearly seen masks on their faces. The system detects the mask wrongly only for a person in the background where the picture is blurry.  
