@@ -76,8 +76,8 @@ In the “output_crowd_video5” video file you can see that the system works al
 &emsp;&emsp;The subtask of estimation distance between people is turned out to be unsolvable in our conditions. The camera intrinsic parameters, such as focal length, must be provided to make the assessment possible. Once we have these parameters, the suggested approach for estimation can be used.  
 
 ## Literature
-COVID-19: physical distancing. (n.d.). World Health Organization. https://www.who.int/westernpacific/emergencies/covid-19/information/physical-distancing  
-Rosebrock, A., (2015, January). Find distance from camera to object/marker using Python and OpenCV. PyImageSearch. https://pyimagesearch.com/2015/01/19/find-distance-camera-objectmarker-using-python-opencv/  
-Wang, C.-Y., Yeh, I.-H., & Liao, H.-Y. M. (2024). _YOLOv9: Learning what you want to learn using programmable gradient information._ https://doi.org/10.48550/arXiv.2402.13616  
-_YOLOv9: A Leap Forward in Object Detection Technology._ (2024). Ultralytics Documentation. https://docs.ultralytics.com/models/yolov9/  
-_YOLOv9: SOTA Object Detection Model Explained._ (2024, February 23). Ultralytics Documentation. https://encord.com/blog/yolov9-sota-machine-learning-object-dection-model/  
+**·** COVID-19: physical distancing. (n.d.). World Health Organization. https://www.who.int/westernpacific/emergencies/covid-19/information/physical-distancing  
+**·** Rosebrock, A., (2015, January). Find distance from camera to object/marker using Python and OpenCV. PyImageSearch. https://pyimagesearch.com/2015/01/19/find-distance-camera-objectmarker-using-python-opencv/  
+**·** Wang, C.-Y., Yeh, I.-H., & Liao, H.-Y. M. (2024). _YOLOv9: Learning what you want to learn using programmable gradient information._ https://doi.org/10.48550/arXiv.2402.13616  
+**·** _YOLOv9: A Leap Forward in Object Detection Technology._ (2024). Ultralytics Documentation. https://docs.ultralytics.com/models/yolov9/  
+**·** _YOLOv9: SOTA Object Detection Model Explained._ (2024, February 23). Ultralytics Documentation. https://encord.com/blog/yolov9-sota-machine-learning-object-dection-model/  
